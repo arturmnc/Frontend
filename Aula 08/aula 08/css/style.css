@@ -1,0 +1,17 @@
+* {
+  font-family:  'Rajdani', sans-serif;
+}
+
+p {
+
+}
+
+.destaque-300 {
+  font-weight: 300;
+}
+
+body {
+  background-color: teal;
+  background-image: url(https://preview.redd.it/rr7gwqonxo771.png?auto=webp&s=904f872d21bb026652fd80699c6b245fa90ae281);
+  background-repeat: no-repeat;
+}
