@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: black; */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headline {
+  background-color: rgb(220,220,220);
+  display: flex;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+header {
+  background-color: rgb(169,169,169);
+}
+
+.nomeDaLoja {
+  background-image: url(https://images.ctfassets.net/s5n2t79q9icq/3dB5uyWzUH95O1ZPBNNUX5/6cff7c65a809285755ea24b164b6ac65/magic-logo.png?fm=webp);
+  margin: 10px;
+  height: 87px;
+  width: 257px;
+  background-repeat: no-repeat;
+  background-color: rgb(169,169,169);
+}
+header nav {
+  background-color: aliceblue;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(128,128,128);
+}
+
+
+li {
+  display: inline-block;
+  width: 70px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+a:link {
+  color: 105,105,105;
+  font-style: none ;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(47,79,79);
+  text-decoration: none;
+}
+
+a:hover {
+  color: 119,136,153;
+  text-decoration: none;
+}
+
+
+a:active {
+    font-style: none ;
+    text-decoration: none;
+}
+
+
+.mainDivUm {
+  background-color: rgb(220,220,220);
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: ;
+  }
+
+
+.mainDivDois {
+  background-color: rgb(192,192,192);
+margin: 5px;
+padding: 5px;
+border-radius: 15px;
+height: 772px;
+text-align: center;
+justify-content: center;
+
+}
+  
+.mainDivDois p {
+  margin: 30px;
+}
+
+footer p {
+  display: flex;
+  padding: 5px;
+ justify-content: center;
+}
+
+label {
+  display: block;
+  margin: 20px;
+  margin-bottom: 2px;
+}
+
+input {
+  margin: 10px 0;
+
+  background-color: gray;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(128,128,128);
+  padding:  5px;
+
+}
+
