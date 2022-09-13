@@ -1,0 +1,209 @@
+/* CHECKPOINT 1
+TURMA 04
+Sala 14
+Artur Miguel do Nascimento Campos
+Luis Fernando */
+
+* {
+padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+.header-principal {
+background-color: #274472;
+display: flex;
+justify-content: space-between;
+/* padding: 25px 90px; */
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.header-principal ul {
+display: flex;
+gap: 15px;
+list-style: none;
+}
+
+.header-principal nav {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.header-principal li {
+  border: 5px solid #5885AF;
+  border-radius: 100px;
+  padding: 5px;
+}
+h1 {
+  color: #C3E0E5;
+}
+
+.header-title {
+  border: 5px solid #5885AF;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.cards-title {
+  margin: 10px;
+  padding: 10px;
+  color: #274472;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-principal ul a {
+  text-decoration: none;
+  color: #C3E0E5;
+}
+
+a:visited {
+  text-decoration: none;
+  color:  blue;
+}
+
+.header-secundario {
+
+}
+
+.body-media {
+  padding: 10px;
+  background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/03/1-cristo-redentor.jpg);
+ width: 100%; 
+ height: auto; 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.container p {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #5885AF;
+}
+
+.body-cards {
+margin: 30px;
+padding: 30px;
+background-color: #5885AF;
+
+}
+
+.container {
+  display: flex;
+  gap: 10%;
+}
+
+.container > div {
+  flex: 1;
+  border:5px solid #274472;
+  background-color: #C3E0E5;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.biblioteca {
+  word-spacing: 3px
+}
+
+.ceu {
+  word-spacing: 10px;
+}
+
+.video{
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  width: 560px;
+  height: 315px;
+}
+
+footer {
+  background-color: #C3E0E5;
+}
+
+footer img {
+  height: 110px;
+}
+
+.footer-cards {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media(max-width: 425px) {
+
+.header-principal {
+  flex-direction: column;
+  
+}
+
+.main-header ul {
+  flex-direction: column;
+}
+
+.container {
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+div.video-container {
+  background-color: #B1D4E0;
+  margin: 1px;
+  padding: 200px 200px 200px 200px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  position: relative;
+
+
+}
+
+div.video-container > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.body-media p {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+.body-media {
+  background-image: url(../img/cristotransp.png)
+}
+
+.container {
+  
+}
+
+.biblioteca {
+  margin: 5px;
+}
+.ceu {
+  margin: 5px;
+}
+
+.maravilhas {
+  margin: 5px;
+}
+
+li {
+  margin: 10px;
+}
+}
